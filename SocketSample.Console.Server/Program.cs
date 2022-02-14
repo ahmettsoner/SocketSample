@@ -6,7 +6,8 @@ namespace SocketSample.Console.Server
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World!");
+            App app = new App();
+            app.Run();
         }
     }
 }
