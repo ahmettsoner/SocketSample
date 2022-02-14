@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Common
+namespace SocketSample.Common
 {
     public delegate void OnLogHandlerServer(string logMessage);
     public delegate void OnReceivedHandlerServer(ClientInfo client, DataPackage dataPackage);
