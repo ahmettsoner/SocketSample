@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SocketSample.Common">
+      <HintPath>C:\Users\Ahmet Soner\source\repos\SocketSample\SocketSample.Common\bin\Debug\netcoreapp3.1\SocketSample.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SocketSample.Socket">
+      <HintPath>C:\Users\Ahmet Soner\source\repos\SocketSample\SocketSample.Socket\bin\Debug\netcoreapp3.1\SocketSample.Socket.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

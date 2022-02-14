@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketSample.Console.Client
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketSample.Console.Server", "SocketSample.Console.Server\SocketSample.Console.Server.csproj", "{3705AB07-7724-4C28-944E-9F056F5A8068}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketSample.WPF.Client", "SocketSample.WPF.Client\SocketSample.WPF.Client.csproj", "{8FC600D2-F871-46DA-971C-ECFF85FA4A47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketSample.WPF.Server", "SocketSample.WPF.Server\SocketSample.WPF.Server.csproj", "{6F906B7C-7AF5-4901-9562-18890D12C7B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{3705AB07-7724-4C28-944E-9F056F5A8068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3705AB07-7724-4C28-944E-9F056F5A8068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3705AB07-7724-4C28-944E-9F056F5A8068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC600D2-F871-46DA-971C-ECFF85FA4A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC600D2-F871-46DA-971C-ECFF85FA4A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC600D2-F871-46DA-971C-ECFF85FA4A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC600D2-F871-46DA-971C-ECFF85FA4A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F906B7C-7AF5-4901-9562-18890D12C7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F906B7C-7AF5-4901-9562-18890D12C7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F906B7C-7AF5-4901-9562-18890D12C7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F906B7C-7AF5-4901-9562-18890D12C7B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
